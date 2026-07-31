@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>王培宇 - 简历</title>
+  <style>
+    @page { size: A4; margin: 10mm 12mm; }
+    :root {
+      --ink: #1a1f24;
+      --muted: #4a5560;
+      --line: #d5dbe3;
+      --accent: #0b3d5c;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      color: var(--ink);
+      font: 9pt/1.32 "PingFang SC", "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei", sans-serif;
+      background: #fff;
+    }
+    .page { padding: 0; }
+    header {
+      border-bottom: 1.5px solid var(--accent);
+      padding-bottom: 6px;
+      margin-bottom: 8px;
+    }
+    h1 {
+      margin: 0 0 2px;
+      font-size: 16pt;
+      letter-spacing: 0.14em;
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .meta { color: var(--muted); font-size: 8.5pt; }
+    h2 {
+      margin: 8px 0 4px;
+      font-size: 10pt;
+      color: var(--accent);
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 1px;
+      letter-spacing: 0.05em;
+    }
+    h3 {
+      margin: 6px 0 1px;
+      font-size: 9pt;
+      font-weight: 700;
+    }
+    .sub {
+      margin: 0 0 1px;
+      color: var(--muted);
+      font-size: 8pt;
+    }
+    p { margin: 0 0 4px; }
+    ul {
+      margin: 1px 0 0;
+      padding-left: 1.05em;
+    }
+    li { margin: 0 0 1px; }
+    .job { margin: 2px 0; font-size: 8.5pt; }
+    .job .t { font-weight: 700; }
+    .skills, .edu { font-size: 8.5pt; margin: 0; }
+    @media print {
+      body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>王培宇</h1>
+      <div class="meta">杭州｜15757125886｜15757125886@163.com</div>
+    </header>
+
+    <section>
+      <h2>个人摘要</h2>
+      <p>阿里云 AI 知识工程师，技术内容背景，专注 Agent 构建、知识注入与客户自助链路落地。近一年推进文档 Agentic Workflow、文档 Agent 平台及 Smart Cloud 2（智云 2）客户自助体系建设，擅长将产品知识、工具与评测闭环工程化为可复用 Agent 能力。平台级业务月均 Token 约 2,133 亿。证书：PMP、阿里云大模型 ACP、云计算 ACP、CATTI 二级笔译、TEM-8。</p>
+    </section>
+
+    <section>
+      <h2>核心项目</h2>
+
+      <h3>Smart Cloud 2（智云 2）· 客户自助 Agent 链路｜2026.04 – 2026.06</h3>
+      <p class="sub">核心成员｜Workflow + Agent + Tool，承接客户自助（演进 intercept / Copilot）</p>
+      <ul>
+        <li>0→1 打通主链路并平台化，支持团队复用扩展；基于未命中/未拦截 Bad Case 自动补知识</li>
+        <li>接入 7–8 个开发者工具，复杂场景沉淀为 Skills；以「用 Agent 搭 Agent」替换原实现，效率约 2x</li>
+        <li>前置拦截率 44% → 63%；用户采纳率 5% → 15%</li>
+      </ul>
+
+      <h3>阿里云文档 Agent 平台｜2025.12 – 2026.03</h3>
+      <p class="sub">项目负责人 · 架构与工程｜端到端生产流程中 Agent 规模化落地</p>
+      <ul>
+        <li>基于 Claude Agent SDK / Claude Code / OpenSandbox 构建 Multi-Agent；经 CLAUDE.md、Skill、MCP 注入业务知识，落地翻译、写作、测试、竞品调研等</li>
+        <li>建立评测闭环；单篇测试成本约 350→70 元（约 -80%）；1 个月完成约 2.9 万篇英文文档优化，多语种累计 8 万+ 篇</li>
+      </ul>
+
+      <h3>阿里云文档 Agentic Workflow｜2025.08 – 2025.11</h3>
+      <p class="sub">项目负责人 · 方案与工程｜Dify 文档全生命周期 Workflow（多语翻译、优化、术语、校验、评审等）</p>
+      <ul>
+        <li>多模型 + MoA，以 3E（易理解、易查找、易用）驱动迭代；约 1000 万外包预算→约 200 万 Token 预算；单篇约 2 天→约 20 分钟</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>工作经历</h2>
+      <div class="job"><span class="t">阿里云｜AI 知识工程师｜2025.01 – 至今</span>　知识工程 Agent 构建与知识消费；核心参与智云 2、文档 Agent 平台、Agentic Workflow。</div>
+      <div class="job"><span class="t">阿里云｜高级技术文档工程师｜2020.07 – 2025.01</span>　存储线及 Qteam 约 14 款产品技术内容，深耕 OSS；团队约 6 人。</div>
+      <div class="job"><span class="t">淘宝｜技术文档工程师｜2019.09 – 2020.07</span>　Kafka 版消息队列等产品技术文档。</div>
+    </section>
+
+    <section>
+      <h2>专业技能</h2>
+      <p class="skills">Agent / 知识工程：Multi-Agent、Skill / CLAUDE.md、MCP 与工具、评测闭环、Bad Case 知识迭代　｜　平台：Dify Workflow、Agent 管理、客户自助 / Copilot　｜　技术内容：云产品文档、多语生产、3E 质量标准</p>
+    </section>
+
+    <section>
+      <h2>教育背景</h2>
+      <p class="edu">上海外国语大学｜硕士，英语（翻译学）｜2016.09 – 2019.06　｜　浙江理工大学｜学士，英语｜2012.09 – 2016.06</p>
+    </section>
+  </main>
+</body>
+</html>
