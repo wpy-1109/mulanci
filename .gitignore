@@ -1,12 +1,3 @@
-# 本地私密简历（不入库、不公开）
+# 本地工作副本与预览（不入库）
 /private/
-resumes/**/*.pdf
-resumes/**/*.html
-resumes/最新/
-resumes/archive/
-resumes/draft/
-
-# 预览图
 **/preview-*.png
-*.png
-!docs/**/*.png

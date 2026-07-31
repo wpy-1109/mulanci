@@ -1,28 +1,16 @@
-# 个人简历项目（私密）
+# 王培宇 · 个人简历
 
-用版本化方式管理简历更新计划与访谈记录。  
-**含联系方式的简历正文已从仓库移除，不再提供公开下载链接。**
+## 下载最新简历（一页 PDF）
 
-## 本地简历位置（不入库）
+- [PDF 直接下载](https://raw.githubusercontent.com/wpy-1109/mulanci/cursor/personal-resume-project-3354/resumes/最新/2026-07-31-王培宇-简历.pdf)
+- [GitHub 页面](https://github.com/wpy-1109/mulanci/blob/cursor/personal-resume-project-3354/resumes/最新/2026-07-31-王培宇-简历.pdf)
 
-| 格式 | 本地路径 |
-|------|----------|
-| Markdown / HTML / PDF | `private/resumes/` |
-| 历史基线 | `private/archive/` |
+仓库内路径：`resumes/最新/2026-07-31-王培宇-简历.pdf`  
+同目录另有 Markdown / HTML。本版无「求职意向」字段，PDF 一页。
 
-## 仓库内公开内容
+## 目录
 
 ```
-docs/
-  简历更新计划.md
-  interview-notes/   # 分轮访谈记录（无联系方式）
-resumes/README.md    # 说明简历不入库
+resumes/最新/       # 可投递版本
+docs/               # 更新计划与访谈记录
 ```
-
-## 请你本人操作（重要）
-
-当前 Agent 权限无法修改仓库可见性。请到 GitHub：
-
-**仓库 → Settings → General → Danger Zone → Change repository visibility → Private**
-
-设为 Private 后，历史提交里曾出现过的 PDF 也不会再被外人打开。
