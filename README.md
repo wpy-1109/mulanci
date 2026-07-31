@@ -1,29 +1,28 @@
-# 王培宇 · 个人简历项目
+# 个人简历项目（私密）
 
-用版本化方式管理简历：归档基线 → HR 结构化访谈采集信息 → 迭代新版。
+用版本化方式管理简历更新计划与访谈记录。  
+**含联系方式的简历正文已从仓库移除，不再提供公开下载链接。**
 
-## 最新简历（投递用）
+## 本地简历位置（不入库）
 
-| 格式 | 路径 |
-|------|------|
-| Markdown | [`resumes/最新/2026-07-31-王培宇-简历.md`](resumes/最新/2026-07-31-王培宇-简历.md) |
-| HTML | [`resumes/最新/2026-07-31-王培宇-简历.html`](resumes/最新/2026-07-31-王培宇-简历.html) |
-| PDF | [`resumes/最新/2026-07-31-王培宇-简历.pdf`](resumes/最新/2026-07-31-王培宇-简历.pdf) |
+| 格式 | 本地路径 |
+|------|----------|
+| Markdown / HTML / PDF | `private/resumes/` |
+| 历史基线 | `private/archive/` |
 
-## 目录
+## 仓库内公开内容
 
 ```
-resumes/
-  最新/             # 当前可投递版本
-  archive/          # 历史基线（更新前原版）
-  draft/            # 改稿过程稿
 docs/
   简历更新计划.md
-  interview-notes/  # 分轮访谈记录
+  interview-notes/   # 分轮访谈记录（无联系方式）
+resumes/README.md    # 说明简历不入库
 ```
 
-## 本版相对旧简历的主要变化
+## 请你本人操作（重要）
 
-1. 置顶 **Smart Cloud 2（智云 2）**：拦截率 44%→63%，采纳率 5%→15%
-2. 定位改为 **AI 知识工程师 / AI Agent 应用**（强化工程与落地，保留技术内容底盘）
-3. 项目按时间倒序：智云 2 → 文档 Agent 平台 → Agentic Workflow
+当前 Agent 权限无法修改仓库可见性。请到 GitHub：
+
+**仓库 → Settings → General → Danger Zone → Change repository visibility → Private**
+
+设为 Private 后，历史提交里曾出现过的 PDF 也不会再被外人打开。
